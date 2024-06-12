@@ -9,71 +9,83 @@
 </head>
 
 <body>
+    <main>
     <section>
     <h1>Formulario de Inscripcion</h1>
         <form action="">
          
     
-        <div>
-            <label for="lbnombre">nombre:</label><br>
-            <input type="text" id="lbnombre" placeholder="Ingresa tu Nombre" required><br>
-        </div>
-        <div>
-            <label for="lbapellido">apellido:</label><br>
-            <input type="text" id="lbapellido" placeholder="Ingresa tu apellido"required><br>
-        </div>
-
-        <div>
-        <label for="lbcorreo">correo:</label><br>
-        <input type="email" id="lbcorreo" placeholder="Ingresa tu correo"required><br>
+        <div class="text-input">
+            <label for="lbnombre">
+                Nombre:
+                <input type="text" id="lbnombre" placeholder="Ingresa tu Nombre" required>
+            </label>
+            <label for="lbapellido">Apellido:</label>
+            <input type="text" name="lbapellido" placeholder="Ingresa tu apellido"required><br>
         </div>
 
         <div>
-        <label for="lbdireccion">direccion:</label><br>
-        <input type="text" id="lbdireccion" placeholder="Ingresa tu apellido"><br>
+            <label for="lbcorreo"><br>
+                Correo:
+                <input type="email" id="lbcorreo" placeholder="Ingresa tu correo"required><br>
+            </label><br>
         </div>
 
-        <label for="lbdepartamento">departamento</labelfor><br>
-        <select name="" id="lbdepartamento"required>
-            <option value="Arauca">Arauca</option>
-            <option value="Armenia">Armenia</option>
-             <option value="Barranquilla">Barranquilla</option>
-             <option value="Bogotá">Bogotá</option>
-             <option value="Bucaramanga">Bucaramanga</option>
-             <option value="Cali">Cali</option>
-             <option value="Cartagena">Cartagena</option>
-             <option value="Cúcuta">Cúcuta</option>
-             <option value="Florencia">Florencia</option>
-             <option value="Ibagué">Ibagué</option>
-             <option value="Leticia">Leticia</option>
-             <option value="Manizales">Manizales</option>
-             <option value="Medellín">Medellín</option>
-             <option value="Mitú">Mitú</option>
-             <option value="Mocoa">Mocoa</option>
-             <option value="Montería">Montería</option>
-             <option value="Neiva">Neiva</option>
-             <option value="Pasto">Pasto</option>
-             <option value="Pereira">Pereira</option>
-             <option value="Popayán">Popayán</option>
-             <option value="Puerto Carreño">Puerto Carreño</option>
-             <option value="Puerto Inírida">Puerto Inírida</option>
-             <option value="Quibdó">Quibdó</option>
-             <option value="Riohacha">Riohacha</option>
-             <option value="San Andrés">San Andrés</option>
-             <option value="San José del Guaviare">San José del Guaviare</option>
-             <option value="Santa Marta">Santa Marta</option>
-             <option value="Sincelejo">Sincelejo</option>
-             <option value="Tunja">Tunja</option>
-             <option value="Valledupar">Valledupar</option>
-             <option value="Villavicencio">Villavicencio</option>
-             <option value="Yopal">Yopal</option>
+        <div>
+            <label for="lbdireccion">
+                Direccion:
+                <input type="text" id="lbdireccion" placeholder="Ingresa tu apellido"><br>
+            </label><br>
+        </div>
+        
+        <fieldset>
+            <label for="lbdepartamento">
+                Departamento
+            <select name="" id="lbdepartamento"required>
+                <option value="Arauca">Arauca</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Barranquilla">Barranquilla</option>
+                <option value="Bogotá">Bogotá</option>
+                <option value="Bucaramanga">Bucaramanga</option>
+                <option value="Cali">Cali</option>
+                <option value="Cartagena">Cartagena</option>
+                <option value="Cúcuta">Cúcuta</option>
+                <option value="Florencia">Florencia</option>
+                <option value="Ibagué">Ibagué</option>
+                <option value="Leticia">Leticia</option>
+                <option value="Manizales">Manizales</option>
+                <option value="Medellín">Medellín</option>
+                <option value="Mitú">Mitú</option>
+                <option value="Mocoa">Mocoa</option>
+                <option value="Montería">Montería</option>
+                <option value="Neiva">Neiva</option>
+                <option value="Pasto">Pasto</option>
+                <option value="Pereira">Pereira</option>
+                <option value="Popayán">Popayán</option>
+                <option value="Puerto Carreño">Puerto Carreño</option>
+                <option value="Puerto Inírida">Puerto Inírida</option>
+                <option value="Quibdó">Quibdó</option>
+                <option value="Riohacha">Riohacha</option>
+                <option value="San Andrés">San Andrés</option>
+                <option value="San José del Guaviare">San José del Guaviare</option>
+                <option value="Santa Marta">Santa Marta</option>
+                <option value="Sincelejo">Sincelejo</option>
+                <option value="Tunja">Tunja</option>
+                <option value="Valledupar">Valledupar</option>
+                option value="Villavicencio">Villavicencio</option>
+                <option value="Yopal">Yopal</option>
+            </labelfor><br>
             </select><br>
-        <label for="lbpais">Pais</labelfor><br>
-        <select name="" id="lbpais">
+        
+        <label for="lbpais">
+            Pais
+            <select name="" id="lbpais">
             <option value="Colombia">Colombia</option>
+        </labelfor><br>
+        </fieldset>
         </select><br>
 
-        <br><label for="lbsexo">Sexo:</label> <br>
+        <br><label for="lbgenre">Sexo:</label> <br>
 
         <input type="radio" name="sexo">Masculino
         <input type="radio" name="sexo">Femenino <br>
@@ -83,9 +95,10 @@
 
         <label for="Descripcion">Descripcion Personal(maximo 300 caracteres)></label><br>
         <textarea maxlength="300" name="UserDescription" ></textarea> <br><br>
-        <section><h1>Carrera</h1>
+    </section>
 
-        
+    <section>
+        <h1>Carrera</h1>
         <label for="lbcarrera"><h3><b>A que carrera deseas Inscribirte?</b></h3></labelfor><br>
         <select name="" id="lbcarrera"required>
             <option value="JTBD">Jobs to be done</option>
@@ -95,15 +108,18 @@
             <option value="FM">Fundamentals</option>
             <option value="PT">PYTHON</option>
             <option value="MD">Marketin digital</option>
-        </select><br>
-        <p>Puede obtener mas informacion en la pagina de <a href="https://es.nodoeafit.com/" target="_blank">Nodo</a>.</p>
-
-        <br><label for="lbmodalidad"required><h3>favor eliga una modalidad:</h3></label> <br>
-
+        </select>
+    </section>
+        <footer>
+            <p>Puede obtener mas informacion en la pagina de <a href="https://es.nodoeafit.com/" target="_blank">Nodo</a>.</p>
+        </footer>
+        <section>
+            <br><label for="lbmodalidad"required><h3>Por favor eliga una modalidad:</h3></label>
+        
             <input type="radio" name="lbmodalidad">Precencial
             <input type="radio" name="lbmodalidad">Virtual <br>
 
-            <label for="lbtrabajo"><h3>Trabaja trabajando actualmente?</h3></label> <br>
+            <label for="lbtrabajo"><h3>Esta trabajando actualmente?</h3></label> <br>
 
             <input type="radio" name="lbtrabajo">si
             <input type="radio" name="lbtrabajo">no <br><br>
@@ -112,5 +128,6 @@
         
         </section>
       </form>
+    </main>
 </body>
 </html>
