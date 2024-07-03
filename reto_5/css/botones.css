@@ -1,0 +1,65 @@
+/*este es el input para escribir numeros*/
+.dis1{
+    gap: 500px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 ;
+}
+/*este es el parrafo arriba de los labels(numero1,numero2)*/
+.dis2{
+    gap: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0 ;
+}
+/*le da estilos a los inputs*/
+.bonne{
+    padding: 5px;
+    border-radius: 10px;
+    width: 170px;
+    margin: 0;
+    border-color: #0070BB;
+}
+/*ubica losinputs de resultados*/
+.result{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px 0px 170px;
+    justify-content: space-between ;
+    height: 350px;
+}
+/*estilo a los imputs de resultados*/
+.styresu{
+    width: 170px;
+    padding: 5px;
+    margin: 0;
+    border-radius: 10px;
+    border-color: #D0F0C0;
+}
+/*ubica los labels arriba de los imputs*/
+.indicaci{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 31px 50px 0px 210px;
+    justify-content: space-between ;
+    height: 320px;
+    font-family: 'Ubuntu Mono';
+}
+.boton{
+    position: absolute;
+    text-align: center;
+    margin-left:47%;
+    margin-top: -68px;
+}
+.bottonsty{
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    margin: 0;
+    border-color: #0070BB;
+    background-color: #89CFF0;
+    color: white;
+}

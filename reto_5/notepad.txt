@@ -1,0 +1,33 @@
+.n{
+    display: block;
+    border-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    margin: 0 auto;
+}
+.lb{
+    display: flex;
+    justify-content: center;
+}
+.input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px;
+    /* Para centrar horizontalmente dentro del contenedor */
+    display: block;
+    margin: 0 auto;
+    }
+.b{
+    display: block;
+    border-radius: 15px;
+    padding: 0%;
+    margin: 0;
+}
+<div><!--div que ubica el label y el input de resultado-->
+            <label for="" class="pr">Resultado</label><br>
+            <input type="text" id="resultado2" class=""><br>
+        <input type="button" value="Calcular" onclick="" class="">
+        </div>

@@ -53,8 +53,8 @@ ul {
     color: bla;
 }
 #presentation {
-    display: flex; /* Hacer el contenedor flex */
-    align-items: flex-start; /* Alinear los items al inicio */
+    display: flex;
+    align-items: flex-start;
 }
 .boxcontenido{
     background-color: #e6ccb2;
@@ -70,60 +70,18 @@ background-color: #b32821;
 height: 139px;
 width: 100%;
 padding-top: 60px;
-text-align: center;
+padding-right: 12%;
+text-decoration: none ;
+fill: black;
 }
-.boxfolder span a{
-    color: white;
-
-}
-.content{
-    background-color: #007FFF;
-    width: 100px;
-    height:100px;
+.social
+{
     display: flex;
-    margin-left: 20px;
-}
-.container{
-    width: 100%;
-    display: flex;
-    max-width: 1200px;
-    padding-left: 90px;
-    background-color: #007BA7;
-}
-.card{
-    width: 100%;
-    margin-left: 40px;
-    margin-top: 20px;
-    border-radius: 6px;
-    overflow: hidden;
-    background-color: white;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
-    cursor: default;
-    transition: all 400ms ease;
-}
-.card:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transform: translate(-3%);
-}
-.card .contenido{
-    padding: 15px;
-    text-align: center;
-}
-.card .contenido p{
-    font-family: "Fira Code Variable";
-    letter-spacing: 1px;
-}
-.card .contenido a{
+    font-size: 40px;
+    letter-spacing: 10px;
     text-decoration: none;
-    display:inline-block;
-    padding: 10px;
-    margin-top: 10px;
-    color: #2fb4cc;
-    border: 1px solid #2fb4cc;
-    border-radius: 4px;
-    transition: all 400ms ease;
+    fill: black;
 }
-.card .contenido a:hover{
-    background: #2fb4cc;
+.fa-brands{
     color: white;
 }

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0FFFF;
+}
+header div{
+    background-color:#89CFF0;
+    height: 60px;
+    width: 100%;
+}
+header div p {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-family: 'IBM Plex Mono';
+}
+form div h2 {
+    padding: 50px 0px 0px 180px;
+    color: #00BFFF;
+    margin-bottom: 40px;
+    font-family: 'Exo 2 Variable';
+}
+.figuras{
+    position: absolute;
+    margin-left: 900px;
+    width: 600px;
+    height: auto;
+    flex-direction: row-reverse;
+}
+.figurascir{
+    position: absolute;
+    margin-left: 900px;
+    width: 300px;
+    height: auto;
+    flex-direction: row-reverse;
+}
+.ofig{
+    background-color:#89CFF0;
+    height: 100px;
+    width: 100%;
+    margin-top: 35px;
+}
+.ubfig{
+    height: auto;
+    width: 50px;
+}
+.placefig{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding-top: 25px;
+    margin: 0;
+    gap: 50px;
+}

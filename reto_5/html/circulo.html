@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../javascript/ccirculo.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/botones.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <p>PROGRAMA DE MEDICION</p>
+        </div><br>
+    </header>
+    <form>
+        
+        <div class="dis2"><!--este div es para centrar los parrafos donde indica donde poner los numeros-->
+            <label for="" id="base" class="">diametro en cm</label>
+            <label for="" id="altura">radio en cm</label>
+        </div>
+        <div class="dis1"><!--div para ubicar lo inputs abajo de los labels-->
+            <input type="text" id="a" placeholder="Escribe el diametro en cm" class="bonne" name="a">
+            <input type="text" id="b" placeholder="Escribe el radio en cm" class="bonne" name="b">
+        </div>
+        <div>
+            <img src="../imagenes/circulo.png" alt="imagen de rectangulo" class="figurascir">
+        </div>
+        <div>
+            <h2>RESULTADOS</h2>
+        </div>
+        <div class="boton">
+            <input type="button" onclick="valor()" name="r" id="r" value="resultado" class="bottonsty">
+        </div>
+        <div class="indicaci"><!--labels para indicar que resultado corresponde a cada uno-->
+            <label for="lbc" id="area">Area(cm2)</label>
+            <label for="lbd" id="perimetro">Perimetro</label>
+            <label for="lbf" id="diagonal">Diagonal</label>
+        </div>
+        <div class="result">        
+            <input type="text" id="c" class=" styresu" name="c">
+            <input type="text" id="d" class="styresu" name="d">
+            <input type="text" id="f"  class="styresu" name="f">
+        </div>
+        <div class="ofig">
+            <ul class="placefig">
+                <li><a href="../html/rectangulo.html"><img src="../imagenes/rectangle.png" alt="" class="ubfig" ></a></li>
+                <li><a href="../html/circulo.html"><img src="../imagenes/dry-clean.png" alt="" class="ubfig"></a></li>
+            </ul>
+        </div>
+    </form>
+</body>
+</html>
