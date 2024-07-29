@@ -1,0 +1,18 @@
+/* cara del frente con sus atributos*/
+.front{
+    display: flex;
+    background-color: #404040;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+        & h2{
+            margin-bottom: 20px;
+        } 
+}
+/*le quita el estilo al link de amadeus y se aleja un poco de las imagenes*/
+.parrafo__amadeus__front{
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 600;
+    color: inherit;
+}

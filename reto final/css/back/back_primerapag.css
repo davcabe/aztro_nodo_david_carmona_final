@@ -1,0 +1,66 @@
+/* cara trasera con atributos y animacion */
+.back{
+    background-color: #404040;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/*imagen de fondo de la ciudad*/
+.back__imagen--principal {
+    height: 200px;
+    padding: 10px 20px;
+    border-radius: 10%;
+}
+/* se agrega la bandera del pais, de acuerdo al lugar selecionado con la clase*/
+.back_imagen--bandera{
+    height: 40px;
+    display: flex;
+    position: absolute;
+    margin-top: 53%;
+    margin-left: 85%;
+    z-index: 2;
+}
+/*se ubica el texto de curiosidades junto al fondo*/
+.back__img--text{
+    height: 25px;
+    width: 89%;
+    background-color: #323232;
+    margin-left: 19px;
+    margin-top: 58%;
+    padding-top: 5px;
+    display: flex;
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 600;
+    z-index: 1;
+}
+/*margin general*/
+.back__margin{
+    margin-top: 6px;
+}
+/*ubica las imagenes a selecionar junto la animacion*/
+.back__imganes--respuestas{
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+    cursor: pointer;
+    position: relative;
+    transition: 1s;
+        & :hover{
+            transform: scale(1,15);
+            transition: 1s;
+        }
+}
+/*se ajusta el tamaño de las imagenes*/
+.back__imagenes--style{
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    align-items: center;
+}

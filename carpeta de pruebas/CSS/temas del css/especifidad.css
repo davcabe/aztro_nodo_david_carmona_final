@@ -1,0 +1,13 @@
+p{
+    color: #e10707;
+}/*esta es una manera de seleccionar por elemento osea por etiqueta*/
+.no-disponible{
+
+    color: #00ff00
+}
+/*esta es otra manera de seleccionar pero por clases osea yo especifico como es una clase y se lo aplico a lo que quiera*/
+#menu-secreto{
+    color: purple;
+}
+/*esta es una forma de selecionar por id osea unicamente el elemento con el nombre que yo le ingrese en el id sera modificado
+*/

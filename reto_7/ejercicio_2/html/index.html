@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notas</title>
+</head>
+<body>
+    <header>
+        <h1>SISTEMA DE NOTAS</h1>
+    </header>
+    <br>
+    <section id="digita_nota">
+        <label for="">Por favor digitar nota<br>max 5.0 min 0.0</label> <br>
+        <input type="number" step="0.1" placeholder="Ingresar nota (ejem 3.2)" id="nota"><br>
+    </section>
+    <br>
+    <section>
+        <div>
+            <label for="">Su nota es:</label> <br>
+            <input type="text" placeholder="" id="calificacion" readonly><br>
+        </div>
+    </section>
+    <section>
+        <br>
+        <input type="button" value="Calcular" onclick="calcularNota()">
+    </section>
+    <script src="../javascript/app-notas.js"></script>
+</body>
+</html>

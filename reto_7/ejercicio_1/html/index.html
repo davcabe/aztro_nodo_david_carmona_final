@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermercado</title>
+    <link rel="stylesheet" href="../javascript/app-super">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="header_h1_titulo">DESCUENTASOS</h1>
+            <h1 class="header_h1_nombre">SUPERMERCADO LA 70</h1>
+            <img src="../../Imagenes/carrito.png" alt="carrito de compras" class="header_img">
+        </div>
+    </header>
+    
+    <form action="" id="form-compra">
+        <SECtion id="boton">
+        </SECtion>
+        <input type="button" value="Calcular" onclick="calcularCompra()" class="boton_calcular"><br>
+
+            <section id="labels_inputs">
+                <div class=".position_absolute">
+                    <div class="prueba">
+                        <label for="" class="texto_Calcular">Descuento</label>
+                        <input type="text" id="descuento" readonly class="botones_abajoCalcular"><br>
+                    </div>
+                    <div class="prueba">
+                        <label for="" class="texto_Calcular">Total a pagar</label>
+                        <input type="text" id="total" readonly class="botones_abajoCalcular"><br>
+                    </div>
+                    <select name="" id="afiliacion" class="boton_afiliacion">
+                        <option value="1">No afiliado</option>
+                        <option value="2">Plata</option>
+                    </select>\
+                    <div>                    
+                        <input type="number" step="0.1" placeholder="valor de la compra" id="compra" class="input_valorCompra"><br>
+                    </div>
+                </div>
+            </section>
+            <script src="../javascript/app-super.js"></script>
+            
+    </form>
+    <div class="">
+        <H1 class="explicacion_Reto">RETO</H1>
+        <p></p>
+    </div>
+</body>
+</html>

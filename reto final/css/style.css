@@ -1,0 +1,47 @@
+/*parametros por defectos de una pagina*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* aca alineo el conetendor en el centro y añado la imagen de moto */
+body{
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../carpeta_de_imagenes/world-map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(211,211,211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ingreso el tama;o de la carta*/
+.container{
+width: 350px;
+height: 500px;
+}
+/*  lo pongo en hove y no en card por que si lo coloco en card directamente cada ves que yo mueva el cursor de el lado izquierdo al derecho se va a estar moviendo
+de modo en que se buggea un poco. si lo coloco aca no va a moverse de otra forma hasta que quite el cursor el > es para que la caracteristica se herede al hijo*/
+.container:hover > .card{
+    transform: rotateY(180deg);
+}
+/* ingreso  el espacio y cuanto tiempo se va a demorar en volterar, el presere 3d es para que la animacion se haga en 2d y si parezca qued a la vuelta*/
+.card{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+/* aca ingreso el absolute para que las dos caras queden en el mismo lugr y coloco el visibility para que no se vea a otr cara no mas al voltearlo*/
+.front,
+.back{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 5px rgb(50,50,50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+}

@@ -1,0 +1,25 @@
+p{
+    color: #e10707;
+    font-family: sans-serif,'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    font-size: 10px; 
+    font-weight: lighter;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}/*esta es una manera de seleccionar por elemento osea por etiqueta*/
+.no-disponible{
+    
+    color: #00ff00;
+    font-weight: 900;
+    font-style: inherit;
+    text-transform: lowercase;
+    text-shadow:0cm;
+    
+}
+/*esta es otra manera de seleccionar pero por clases osea yo especifico como es una clase y se lo aplico a lo que quiera*/
+#menu-secreto{
+    color: purple;
+    text-align: end;
+    text-decoration:double;
+}
+/*esta es una forma de selecionar por id osea unicamente el elemento con el nombre que yo le ingrese en el id sera modificado
+*/

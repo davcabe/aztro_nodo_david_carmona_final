@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F0F8FF;
+}
+header div {
+    background-color: #ACE1AF;
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Raleway Variable';
+    
+}
+.header_h1_titulo{
+    margin-left: 30px;
+    background-color: #ACE1AF;
+    letter-spacing: 2px;
+}
+.header_h1_nombre{
+    margin-left: 600px;
+    background-color: #ACE1AF;
+    letter-spacing: 2px;
+}
+.header_img{
+    display: absolute;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    height: 90px;
+    width: auto;
+    margin-left: 100px;
+}
+.boton_afiliacion{
+    display: flex;
+    margin-left: 850px;
+    margin-top: -300px;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: #ACE1AF;
+    background-color: #7FFFD4;
+    cursor: pointer;
+}
+.input_valorCompra{
+    display: absolute;
+    margin-left: 820px;
+    margin-top: 150px;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: #50C878;
+    background-color: #7FFFD4;
+}
+.boton_calcular{
+    display: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: #50C878;
+    background-color: #7FFFD4;
+}
+.botones_abajoCalcular{
+    height: 20px;
+    width: 150px;
+    margin-left: 50px;
+    border-radius: 10px
+}
+.texto_Calcular{
+    margin-left: 90px;
+}
+.prueba{
+    display: flex;
+    margin-top: 100px;
+    flex-direction: column;
+}
+.explicacion_Reto{
+    display: flex;
+    background-color: #ACE1AF;
+    height: 100px;
+    margin-top: 169px;
+    text-align: center;
+    flex-direction: column;
+}

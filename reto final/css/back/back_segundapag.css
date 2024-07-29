@@ -1,0 +1,51 @@
+/*Caracteristicas de boton de siguiente despues de elegir cual imagen*/
+.parrafo__siguiente_segundapag{
+    display: flex;
+    margin-top: 80px;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 36%;
+    margin-bottom: 65px;
+}
+/*estilo de boton de siguiente, se le quita los estilos de link a la letra y se redimeciona el tamaño de el boton  */
+.parrafo__siguiente--estilo_segundapag{
+    font-weight: 600;
+    padding: 8px;
+    background-color: #0C66E1;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 50px;
+    width: 130px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 28%;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    color: inherit;
+    color: white;
+}
+/*separa el texto de amadus de la parte superior y quita el estilo del link de amadeus*/
+.parrafo__amadeus__back_segundapag{
+    text-decoration: none;
+    margin-top: 70px;
+    font-weight: 600;
+    color: inherit;
+}
+/*ubica el boton de siguiente y el texto de amadeus en la mitad cambiando el tamaño para que el texto amadeus se ubique en una sola linea*/
+.colocacion__objetos__back_segundapag{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+/*ubica el parrafo de amadus en la parte inferrior de la mitad*/
+.parrafo__amadeus__back_position_segundapag{
+    display: flex;
+    position: relative;
+    width: 300px;
+    margin-left: 17%;
+}
+

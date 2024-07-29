@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Carmona Portafolio</title>
+    <link rel="stylesheet" href="./font.css">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        /* Reset de estilo y estilos básicos */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter Variable', Arial, sans-serif, Courier, monospace;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Source Sans Pro';
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: white;
+            padding: 0.5rem;
+        }
+
+        header {
+            margin-bottom: 10px;
+        }
+
+        nav {
+            display: flex;
+            align-items: flex-start;
+            background-color: #007FFF;
+            padding: 10px;
+        }
+
+
+
+        .menus li {
+            margin: 0 10px;
+            background-color: orange;
+            padding: 0.5rem;
+            border-radius: 0.2rem;
+        }
+
+        .menus li a {
+            color: white;
+        }
+
+        .navigation-item:hover {
+            background-color: blue;
+            cursor: pointer;
+        }
+
+        .navigation-item:hover > a {
+            color: aqua;
+        }
+
+        .navigation-item[active] {
+            background-color: var(--empanada-color);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navigation-bar">
+            <h1>David Carmona Portafolio</h1>
+            <ul class="menus">
+                <li class="navigation-item" active>
+                    <a href="clase.html">Home</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="abaut.html">About me</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#">Projects</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#">Contact me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="presentation">
+            <p>Soy David Carmona, Estudiante de nodo</p>
+        </section>
+    </main>
+    <footer>
+        <span><a href="https://github.com/davcabe/aztro_nodo_david_carmona_final">GitHub</a></span>
+    </footer>
+</body>
+</html>

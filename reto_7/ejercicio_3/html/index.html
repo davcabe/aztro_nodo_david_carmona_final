@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Calculadora indice de masa corporal</title>
+</head>
+<body>
+    <header>
+        <div class="header_title">
+            <img src="../../Imagenes/check.png" alt="icono check" class="icon_style">
+            <h1 class="title_style">INCUENTRA SI TU PESO SALUDABLE</h1>
+        </div>
+    </header>
+    <br>
+    <section id="digita_peso" class="fondo_gris">
+        <div class="card_title">
+            <h2 class="">Que tan saludable es su peso?</h2>
+        </div>
+        <div class="card_indice">
+            <label for="" class="card_indice_title">Por favor digitar su <br>indice de masa corporal</label> <br>
+            <input type= "number" step="0.01" placeholder="Ingresar indice (ejem 18.20)" id="peso" class="card_indice_input"><br>
+        </div>
+        <br>
+        <div>
+            <label for="" class="card_estado_title">Su estado actual es</label> <br>
+            <input type="text" placeholder="" id="estado" readonly class="card_estado_input"><br>
+        </div>
+        <br>
+        <div>
+            <input type="button" value="Calcular" onclick="calcularNota()" class="card_botton">
+        </div>
+    </section>
+    <div class="reto">
+        <h1>RETO</h1><br>
+        <P>Realizar una calculadora de indice de masa corporal y en base a los resultados <br>demostar si la persona se encuentra en un buen peso o no.</P>
+    </div>
+    <script src="../javascript/app-peso.js"></script>
+</body>
+</html>
